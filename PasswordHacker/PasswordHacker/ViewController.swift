@@ -31,12 +31,14 @@ class ViewController: UIViewController {
                 
                 for _ in 0...3 {
                     digits.append(password % 10)
-                    password = / 
+                    password = password / 10
                 }
                 
-                
-                
-                
+                resultLabel1.text = String(digits[0])
+                resultLabel2.text = String(digits[1])
+                resultLabel3.text = String(digits[2])
+                resultLabel4.text = String(digits[3])
+
                 print("正解は\(i)です！")
             }
         }
@@ -48,6 +50,15 @@ class ViewController: UIViewController {
     }
     
     @IBAction func reset(){
+        
+        password = 0522
+        
+        countLabel1.text = "「START」ボタンを押して解析開始 "
+        
+        resultLabel1.text = "0"
+        resultLabel2.text = "0"
+        resultLabel3.text = "0"
+        resultLabel4.text = "0"
         
     }
 
