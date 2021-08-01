@@ -79,10 +79,10 @@
                     </view>
                     <connections>
                         <outlet property="countLabel1" destination="ZWy-YA-PCm" id="oVc-dm-vj3"/>
-                        <outlet property="resultLabel1" destination="ZWy-YA-PCm" id="hcl-eO-e2j"/>
-                        <outlet property="resultLabel2" destination="ZWy-YA-PCm" id="rk8-6l-Pqc"/>
-                        <outlet property="resultLabel3" destination="ZWy-YA-PCm" id="u8F-nk-zW8"/>
-                        <outlet property="resultLabel4" destination="ZWy-YA-PCm" id="rUB-Yn-Dnv"/>
+                        <outlet property="resultLabel1" destination="GQw-3x-MJ3" id="wGJ-0x-MqU"/>
+                        <outlet property="resultLabel2" destination="kwp-SU-7Ih" id="naO-Wa-k6j"/>
+                        <outlet property="resultLabel3" destination="0Wd-BF-bbf" id="iOe-zR-XrW"/>
+                        <outlet property="resultLabel4" destination="kPn-TG-lGw" id="SYX-LL-Igm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
